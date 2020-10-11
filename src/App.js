@@ -41,7 +41,8 @@ function Age({ age, children }) {
     >
       <div className="Age"
         onClick={() => dispatch({ 'type': ACTIONS.CHANGE_AGE_SELECTED, ageId: age.id })}>
-        <div className="Age-bg-img" style={{ backgroundImage: 'url(' + age.image + ')' }} />
+        <div className="Age-bg-img"
+          style={{ backgroundImage: 'url(' + require(`../public/${age.image}`) + ')' }} />
         <div className="Age-bg-filter" />
         <div className="Age-title"
           style={state.ageId !== age.id ? { transform: 'rotate(90deg)' } : {}}

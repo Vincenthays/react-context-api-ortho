@@ -9,7 +9,7 @@ export default [
         ]
     }, {
         'name': '+3 ans',
-        'image': 'images/adult.jpg',
+        'image': 'images/+3.jpg',
         'therapies': [
             { 'name': 'Therapie 1', 'video': 'C04dGAkIyPM' },
             { 'name': 'Therapie 2', 'video': 'C04dGAkIyPM' },
@@ -17,7 +17,7 @@ export default [
         ]
     }, {
         'name': '6-8 ans',
-        'image': 'images/adult.jpg',
+        'image': 'images/6-8.jpg',
         'therapies': [
             { 'name': 'Therapie 1', 'video': 'C04dGAkIyPM' },
             { 'name': 'Therapie 2', 'video': 'C04dGAkIyPM' },
@@ -25,7 +25,7 @@ export default [
         ]
     }, {
         'name': '11-14 ans',
-        'image': 'images/adult.jpg',
+        'image': 'images/11-14.jpg',
         'therapies': [
             { 'name': 'Therapie 1', 'video': 'C04dGAkIyPM' },
             { 'name': 'Therapie 2', 'video': 'C04dGAkIyPM' },
