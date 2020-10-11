@@ -1,22 +1,30 @@
 {
   "files": {
     "main.css": "/react-context-api-ortho/static/css/main.00909b77.chunk.css",
-    "main.js": "/react-context-api-ortho/static/js/main.774ed844.chunk.js",
-    "main.js.map": "/react-context-api-ortho/static/js/main.774ed844.chunk.js.map",
+    "main.js": "/react-context-api-ortho/static/js/main.9b653395.chunk.js",
+    "main.js.map": "/react-context-api-ortho/static/js/main.9b653395.chunk.js.map",
     "runtime-main.js": "/react-context-api-ortho/static/js/runtime-main.a7427ff9.js",
     "runtime-main.js.map": "/react-context-api-ortho/static/js/runtime-main.a7427ff9.js.map",
-    "static/js/2.355562b4.chunk.js": "/react-context-api-ortho/static/js/2.355562b4.chunk.js",
-    "static/js/2.355562b4.chunk.js.map": "/react-context-api-ortho/static/js/2.355562b4.chunk.js.map",
+    "static/js/2.2ba42e82.chunk.js": "/react-context-api-ortho/static/js/2.2ba42e82.chunk.js",
+    "static/js/2.2ba42e82.chunk.js.map": "/react-context-api-ortho/static/js/2.2ba42e82.chunk.js.map",
     "index.html": "/react-context-api-ortho/index.html",
-    "precache-manifest.0421c2c8edfe4cdef3dad95daeb8479d.js": "/react-context-api-ortho/precache-manifest.0421c2c8edfe4cdef3dad95daeb8479d.js",
+    "precache-manifest.7aaf07d3c319747c6eb2df99c989d267.js": "/react-context-api-ortho/precache-manifest.7aaf07d3c319747c6eb2df99c989d267.js",
     "service-worker.js": "/react-context-api-ortho/service-worker.js",
     "static/css/main.00909b77.chunk.css.map": "/react-context-api-ortho/static/css/main.00909b77.chunk.css.map",
-    "static/js/2.355562b4.chunk.js.LICENSE.txt": "/react-context-api-ortho/static/js/2.355562b4.chunk.js.LICENSE.txt"
+    "static/js/2.2ba42e82.chunk.js.LICENSE.txt": "/react-context-api-ortho/static/js/2.2ba42e82.chunk.js.LICENSE.txt",
+    "static/media/+3.jpg": "/react-context-api-ortho/static/media/+3.c7928248.jpg",
+    "static/media/11-14.jpg": "/react-context-api-ortho/static/media/11-14.d657d059.jpg",
+    "static/media/3.jpg": "/react-context-api-ortho/static/media/3.3e4db417.jpg",
+    "static/media/6-8.jpg": "/react-context-api-ortho/static/media/6-8.f7f593fe.jpg",
+    "static/media/ado.jpg": "/react-context-api-ortho/static/media/ado.bf256f42.jpg",
+    "static/media/adult.jpg": "/react-context-api-ortho/static/media/adult.2dcbef9f.jpg",
+    "static/media/favicon.ico": "/react-context-api-ortho/static/media/favicon.6e1267d9.ico",
+    "static/media/robots.txt": "/react-context-api-ortho/static/media/robots.fa1ded1e.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a7427ff9.js",
-    "static/js/2.355562b4.chunk.js",
+    "static/js/2.2ba42e82.chunk.js",
     "static/css/main.00909b77.chunk.css",
-    "static/js/main.774ed844.chunk.js"
+    "static/js/main.9b653395.chunk.js"
   ]
 }
