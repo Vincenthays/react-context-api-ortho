@@ -33,7 +33,7 @@ export default [
         ]
     }, {
         'name': 'Ado',
-        'image': 'images/adult.jpg',
+        'image': 'images/ado.jpg',
         'therapies': [
             { 'name': 'Therapie 1', 'video': 'C04dGAkIyPM' },
             { 'name': 'Therapie 2', 'video': 'C04dGAkIyPM' },
