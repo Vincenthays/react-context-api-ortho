@@ -82,10 +82,12 @@ function Video() {
         <div className="Video-button-exit" onClick={exit}>+</div>
         <iframe
           className="Video"
+          title={state.video}
           src={`https://www.youtube-nocookie.com/embed/${state.video}`}
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
+          allowFullScreen
+        ></iframe>
       </div>
     </CSSTransition>
   )
