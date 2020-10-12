@@ -39,14 +39,13 @@ function Age({ age, children }) {
       timeout={500}
       classNames="Age"
     >
-      <div className="Age"
+      <div 
+        className="Age"
         onClick={() => dispatch({ 'type': ACTIONS.CHANGE_AGE_SELECTED, ageId: age.id })}>
         <div className="Age-bg-img"
-          style={{ backgroundImage: 'url(' + require(`../public/${age.image}`) + ')' }} />
+          style={{ backgroundImage: `url(${require(`../public/${age.image}`)})` }} />
         <div className="Age-bg-filter" />
-        <div className="Age-title"
-          style={state.ageId !== age.id ? { transform: 'rotate(90deg)' } : {}}
-        >
+        <div className="Age-title">
           {age.name}
         </div>
         <div className="Age-theray-list">

@@ -25,6 +25,7 @@
   background-position: center;
   z-index: -1;
   filter: brightness(70%);
+  transition: .5s;
 }
 
 .Age-bg-filter {
@@ -41,35 +42,51 @@
   opacity: .4;
 }
 
+.Age:hover > .Age-bg-img {
+  transform: scale(1.1);
+}
+
 .Age-title {
   font-size: 3rem;
   transition: .5s;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
 }
 
 .Age-theray-list {
-  transform: translateY(70vh);
-  transition: .5s;
-  font-size: 2rem;
+  font-size: 1.5rem;
   background-color: rgba(255, 255, 255, .5);
   padding: 20px 30px;
   border-radius: 5px;
+  display: none;
+  transition: transform .7s;
+  transform: translateY(100vh);
+  position: absolute;
 }
 
-.Age-enter-done {
-  flex-grow: 5;
+.Age-enter, .Age-enter-done {
+  flex-grow: 10;
 }
 
 .Age-enter-done > .Age-bg-filter {
   opacity: 0;
 }
 
+.Age-enter .Age-title {
+  transform: rotate(270deg);
+}
+
 .Age-enter-done > .Age-title {
-  transform: translateY(-70vh);
-  
+  transform: translateY(-70vh) rotate(270deg);
+}
+
+.Age-enter > .Age-theray-list {
+  display: block;  
 }
 
 .Age-enter-done > .Age-theray-list {
-  transform: translateY(-50%);
+  display: block;
+  transform: translateY(0);
 }
 
 .Therapy {
